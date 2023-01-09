@@ -1,0 +1,41 @@
+.display {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.iconic {
+  display: flex;
+  border-radius: 10px;
+  column-gap: 10px;
+}
+.logo {
+  height: 65px;
+}
+
+.bigbutton {
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--primary-mid-contrast);
+}
+.bigbutton:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.version {
+  font-size: larger;
+  padding: 3px;
+  padding-left: 10px;
+}

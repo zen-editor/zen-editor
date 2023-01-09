@@ -1,0 +1,52 @@
+.editorDiv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.cm-editor.cm-focused .cm-selectionBackground,
+::selection {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.cm-editor {
+  position: absolute;
+  background-color: var(--primary-color);
+  height: 100%;
+
+  color: white;
+}
+
+.ͼ1 .cm-content {
+  padding-top: 10px;
+}
+
+.cm-activeLine.cm-line {
+  background: var(--primary-color);
+}
+
+.cm-editor.cm-focused .cm-cursor {
+  border-left-color: var(--secondary-color);
+}
+
+.cm-gutter.cm-lineNumbers {
+  /* padding-top: 5px; */
+  color: white;
+  background: var(--primary-color);
+  background: var(--primary-hover-color);
+}
+
+.cm-gutter.cm-foldGutter {
+  background: var(--primary-hover-color);
+  margin-right: -1px;
+}
+
+.ͼ1 .cm-gutterElement.cm-activeLineGutter {
+  padding-top: 2px;
+  background: var(--primary-color);
+}

@@ -1,0 +1,5 @@
+src-tauri/target/
+src-tauri/Cargo.lock
+pnpm-lock.yaml
+node_modules
+dist
